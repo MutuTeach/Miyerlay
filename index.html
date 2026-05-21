@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0e1a" />
+  <meta name="description" content="FX-BSC Academia de Trading — Aprende a operar los mercados financieros con Miyerlay. Cursos, mentorías personalizadas, operativa en vivo y bot de trading." />
+  <meta property="og:title" content="FX-BSC Academia de Trading" />
+  <meta property="og:description" content="Formamos traders desde cero con metodología clara y resultados reales." />
+  <meta property="og:type" content="website" />
+  <title>FX-BSC · Academia de Trading premium</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles/design-system.css" />
+  <link rel="stylesheet" href="styles/hero.css" />
+  <link rel="stylesheet" href="styles/services.css" />
+  <link rel="stylesheet" href="styles/social-proof.css" />
+  <link rel="stylesheet" href="styles/community-footer.css" />
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- ============================================
+     PREMIUM NAVIGATION — Fixed, glass on scroll
+     ============================================ -->
+<nav class="hero-nav" id="heroNav" aria-label="Navegación principal">
+  <div class="container hero-nav__inner">
+    <a href="#inicio" class="hero-nav__brand" aria-label="FX-BSC Inicio">
+      <span class="hero-nav__monogram" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="38" height="38" rx="10" stroke="url(#monoStroke)" stroke-width="1.2"/>
+          <path d="M12 27 V13 H22" stroke="url(#monoStroke)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M12 20 H20" stroke="url(#monoStroke)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M26 13 L28 27" stroke="url(#monoStroke)" stroke-width="2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="monoStroke" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#e8c66c"/>
+              <stop offset="1" stop-color="#9c7d1f"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="hero-nav__wordmark">
+        <span class="hero-nav__brand-name">FX-BSC</span>
+        <span class="hero-nav__brand-tag">Academia de Trading</span>
+      </span>
+    </a>
+
+    <ul class="hero-nav__menu" role="menubar">
+      <li role="none"><a role="menuitem" href="#inicio" class="hero-nav__link is-active">Inicio</a></li>
+      <li role="none"><a role="menuitem" href="#cursos" class="hero-nav__link">Cursos</a></li>
+      <li role="none"><a role="menuitem" href="#servicios" class="hero-nav__link">Servicios</a></li>
+      <li role="none"><a role="menuitem" href="#comunidad" class="hero-nav__link">Comunidad</a></li>
+      <li role="none"><a role="menuitem" href="#faq" class="hero-nav__link">FAQ</a></li>
+    </ul>
+
+    <div class="hero-nav__actions">
+      <a href="https://t.me/Fxbasic_entradastrading" target="_blank" rel="noopener" class="btn btn-primary hero-nav__cta" aria-label="Únete al canal de señales">
+        ÚNETE
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M13 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+      <button class="hero-nav__burger" id="heroBurger" aria-label="Abrir menú" aria-expanded="false" aria-controls="heroMobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile slide-down menu -->
+  <div class="hero-nav__mobile" id="heroMobileMenu" aria-hidden="true">
+    <a href="#inicio" class="hero-nav__mobile-link">Inicio</a>
+    <a href="#cursos" class="hero-nav__mobile-link">Cursos</a>
+    <a href="#servicios" class="hero-nav__mobile-link">Servicios</a>
+    <a href="#comunidad" class="hero-nav__mobile-link">Comunidad</a>
+    <a href="#faq" class="hero-nav__mobile-link">FAQ</a>
+    <a href="https://t.me/Fxbasic_entradastrading" target="_blank" rel="noopener" class="btn btn-primary hero-nav__mobile-cta">ÚNETE</a>
+  </div>
+</nav>
+
+<!-- ============================================
+     HERO SECTION — Luxury Above-the-Fold
+     ============================================ -->
+<section class="hero" id="inicio" aria-labelledby="heroTitle">
+  <!-- Decorative background layers -->
+  <div class="bg-grid hero__grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-gold hero__glow hero__glow--a" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-cyan hero__glow hero__glow--b" aria-hidden="true"></div>
+
+  <!-- Decorative sparkline behind hero -->
+  <svg class="hero__sparkline" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="sparkLine" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="rgba(212,175,55,0)"/>
+        <stop offset="0.5" stop-color="rgba(212,175,55,0.55)"/>
+        <stop offset="1" stop-color="rgba(212,175,55,0)"/>
+      </linearGradient>
+      <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="rgba(212,175,55,0.18)"/>
+        <stop offset="1" stop-color="rgba(212,175,55,0)"/>
+      </linearGradient>
+    </defs>
+    <path d="M0,260 C120,240 180,180 260,200 C340,220 400,300 500,280 C600,260 660,160 760,180 C860,200 920,280 1020,250 C1120,220 1200,140 1300,170 C1380,194 1440,210 1440,210 L1440,400 L0,400 Z" fill="url(#sparkFill)"/>
+    <path d="M0,260 C120,240 180,180 260,200 C340,220 400,300 500,280 C600,260 660,160 760,180 C860,200 920,280 1020,250 C1120,220 1200,140 1300,170 C1380,194 1440,210 1440,210" fill="none" stroke="url(#sparkLine)" stroke-width="1.6"/>
+  </svg>
+
+  <div class="container hero__container">
+    <!-- LEFT — Content -->
+    <div class="hero__content">
+      <span class="eyebrow reveal" data-delay="0">Aprende desde cero</span>
+
+      <h1 id="heroTitle" class="hero__title display reveal" data-delay="80">
+        FX-BSC <br/>
+        Academia de <span class="text-gold">Trading</span>
+      </h1>
+
+      <p class="hero__lede text-soft reveal" data-delay="160">
+        Formamos traders desde cero con una metodología clara y práctica. Miyerlay, fundadora de FX-BSC, te guía en el camino para operar los mercados financieros con disciplina y resultados reales.
+      </p>
+
+      <ul class="hero__features reveal" data-delay="220" role="list">
+        <li class="hero__feature">
+          <span class="hero__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12l4 4 10-10"/>
+            </svg>
+          </span>
+          <span>24/7 Soporte</span>
+        </li>
+        <li class="hero__feature">
+          <span class="hero__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12l4 4 10-10"/>
+            </svg>
+          </span>
+          <span>Confianza</span>
+        </li>
+        <li class="hero__feature">
+          <span class="hero__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12l4 4 10-10"/>
+            </svg>
+          </span>
+          <span>Clases Flexibles</span>
+        </li>
+      </ul>
+
+      <div class="hero__ctas reveal" data-delay="300">
+        <a href="https://t.me/Fxbasic_entradastrading" target="_blank" rel="noopener" class="btn btn-primary hero__cta" aria-label="Únete al canal de señales gratis">
+          CANAL DE SEÑALES GRATIS
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M13 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <span class="badge hero__live">
+          <span class="badge-dot" aria-hidden="true"></span>
+          En vivo · Señales diarias
+        </span>
+      </div>
+
+    </div>
+
+    <!-- RIGHT — Portrait + floating cards -->
+    <aside class="hero__visual" aria-label="Miyerlay, fundadora de FX-BSC">
+      <div class="hero__frame reveal" data-delay="120">
+        <div class="hero__frame-glow" aria-hidden="true"></div>
+        <div class="hero__frame-ring" aria-hidden="true"></div>
+
+        <img
+          class="hero__portrait"
+          src="https://www.fx-bsc.com/wp-content/uploads/2025/08/miyerlay1.png"
+          alt="Miyerlay, fundadora de la academia FX-BSC"
+          loading="lazy"
+          decoding="async"
+          width="640"
+          height="780"
+        />
+
+        <!-- Floating chip — Cursos counter -->
+        <div class="hero__chip hero__chip--cursos" role="group" aria-label="Más de 15 cursos">
+          <div class="hero__chip-num text-gold">+15</div>
+          <div class="hero__chip-label">Cursos de trading</div>
+        </div>
+
+        <!-- Floating chip — Miembros (community avatars) -->
+        <div class="hero__chip hero__chip--members" role="group" aria-label="Más de 50 miembros">
+          <div class="hero__avatars" aria-hidden="true">
+            <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/Collage-of-a-diverse-group-of-laughing-entrepreneurs.png" alt="" loading="lazy" decoding="async"/>
+            <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/Collage-of-a-diverse-group-of-laughing-entrepreneurs.png" alt="" loading="lazy" decoding="async"/>
+            <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/Collage-of-a-diverse-group-of-laughing-entrepreneurs.png" alt="" loading="lazy" decoding="async"/>
+          </div>
+          <div class="hero__chip-text">
+            <strong>+50 miembros</strong>
+            <span>Comunidad activa</span>
+          </div>
+        </div>
+
+        <!-- Floating chip — Rating -->
+        <div class="hero__chip hero__chip--rating" role="group" aria-label="Calificación 5 estrellas">
+          <div class="hero__stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="hero__chip-text">
+            <strong>5.0 valoración</strong>
+            <span>Estudiantes verificados</span>
+          </div>
+        </div>
+
+        <!-- Decorative mini chart card -->
+        <div class="hero__chip hero__chip--chart" aria-hidden="true">
+          <div class="hero__chip-row">
+            <span class="hero__chip-pair">XAU/USD</span>
+            <span class="hero__chip-pct up">+2.41%</span>
+          </div>
+          <svg viewBox="0 0 120 40" class="hero__minispark" preserveAspectRatio="none">
+            <path d="M0,30 L15,26 L28,28 L42,18 L58,22 L72,12 L88,16 L104,8 L120,10" fill="none" stroke="var(--c-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Scroll indicator -->
+  <a href="#cursos" class="hero__scroll" aria-label="Desplazarse hacia abajo">
+    <span class="hero__scroll-label">Descubre más</span>
+    <span class="hero__scroll-mouse" aria-hidden="true"><span></span></span>
+  </a>
+</section>
+<!-- ============================================
+     SECTION 1 — SERVICES HEADER
+     ============================================ -->
+<section class="services-header-section" id="servicios">
+  <div class="bg-glow bg-glow-gold services-bg-glow" aria-hidden="true"></div>
+  <div class="container">
+    <header class="section-header center reveal">
+      <span class="eyebrow">FX-BSC</span>
+      <h2 class="display">Todo lo que necesitas para <span class="text-gold">dominar el trading</span></h2>
+      <p>Nuestros programas están diseñados para guiarte en cada etapa: desde los primeros pasos hasta la operativa en vivo. Con herramientas prácticas, planes personalizados y estrategias probadas.</p>
+    </header>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 2 — SERVICES GRID (5 CARDS)
+     ============================================ -->
+<section class="services-grid-section">
+  <div class="container">
+    <div class="services-grid" role="list">
+
+      <!-- CARD 1 — Cursos de trading -->
+      <article class="service-card card reveal" role="listitem">
+        <div class="service-card__media">
+          <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/1.png" alt="Cursos de trading FX-BSC" loading="lazy" />
+          <div class="service-card__media-overlay" aria-hidden="true"></div>
+          <div class="service-card__avatar" aria-hidden="true">
+            <span class="service-card__avatar-initial">M</span>
+          </div>
+        </div>
+
+        <div class="service-card__body">
+          <div class="service-card__meta">
+            <div class="service-card__rating" role="img" aria-label="4 de 5 estrellas">
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="service-card__rating-value">4.0</span>
+          </div>
+
+          <h3 class="service-card__title">Cursos de trading</h3>
+          <p class="service-card__trader">Trader: <span class="text-gold">Miyerlay</span></p>
+          <p class="service-card__desc">Desde lo básico hasta estrategias avanzadas. Aprende con un método práctico, estructurado y orientado a resultados reales en los mercados financieros.</p>
+
+          <ul class="service-card__features">
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span>Tiempo flexible</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              <span>Clase Online</span>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary service-card__cta" data-service-modal="cursos">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <!-- CARD 2 — Trading Personalizado -->
+      <article class="service-card card reveal" role="listitem">
+        <div class="service-card__media">
+          <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/2.png" alt="Trading personalizado FX-BSC" loading="lazy" />
+          <div class="service-card__media-overlay" aria-hidden="true"></div>
+          <div class="service-card__avatar" aria-hidden="true">
+            <span class="service-card__avatar-initial">M</span>
+          </div>
+        </div>
+
+        <div class="service-card__body">
+          <div class="service-card__meta">
+            <div class="service-card__rating" role="img" aria-label="5 de 5 estrellas">
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="service-card__rating-value">5.0</span>
+          </div>
+
+          <h3 class="service-card__title">Trading Personalizado</h3>
+          <p class="service-card__trader">Trader: <span class="text-gold">Miyerlay</span></p>
+          <p class="service-card__desc">No todos los traders son iguales. Diseñamos contigo un plan adaptado a tu estilo, objetivos y nivel de experiencia para que operes con claridad y seguridad.</p>
+
+          <ul class="service-card__features">
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span>Tiempo 1-a-1</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              <span>Clase Online</span>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary service-card__cta" data-service-modal="personalizado">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <!-- CARD 3 — Cuentas de fondeo -->
+      <article class="service-card card reveal" role="listitem">
+        <div class="service-card__media">
+          <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/3.png" alt="Cuentas de fondeo FX-BSC" loading="lazy" />
+          <div class="service-card__media-overlay" aria-hidden="true"></div>
+          <div class="service-card__avatar" aria-hidden="true">
+            <span class="service-card__avatar-initial">M</span>
+          </div>
+        </div>
+
+        <div class="service-card__body">
+          <div class="service-card__meta">
+            <div class="service-card__rating" role="img" aria-label="4 de 5 estrellas">
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="service-card__rating-value">4.0</span>
+          </div>
+
+          <h3 class="service-card__title">Cuentas de fondeo</h3>
+          <p class="service-card__trader">Trader: <span class="text-gold">Miyerlay</span></p>
+          <p class="service-card__desc">Prepárate para superar los retos de las cuentas de fondeo y consigue capital de inversión. Te guiamos paso a paso para operar con confianza y disciplina.</p>
+
+          <ul class="service-card__features">
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span>Tiempo guiado</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              <span>Clase Online</span>
+            </li>
+          </ul>
+
+          <a href="https://dashboard.htrader.com/purchasechallenge?affiliateId=486" class="btn btn-primary service-card__cta" target="_blank" rel="noopener">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- CARD 4 — Operativa en vivo -->
+      <article class="service-card card reveal" role="listitem">
+        <div class="service-card__media">
+          <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/4.png" alt="Operativa en vivo FX-BSC" loading="lazy" />
+          <div class="service-card__media-overlay" aria-hidden="true"></div>
+          <div class="service-card__avatar" aria-hidden="true">
+            <span class="service-card__avatar-initial">M</span>
+          </div>
+        </div>
+
+        <div class="service-card__body">
+          <div class="service-card__meta">
+            <div class="service-card__rating" role="img" aria-label="4 de 5 estrellas">
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="service-card__rating-value">4.0</span>
+          </div>
+
+          <h3 class="service-card__title">Operativa en vivo</h3>
+          <p class="service-card__trader">Trader: <span class="text-gold">Miyerlay</span></p>
+          <p class="service-card__desc">Aprende en tiempo real cómo toman decisiones los traders profesionales. Accede a sesiones en vivo y entiende la lógica detrás de cada operación.</p>
+
+          <ul class="service-card__features">
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span>Tiempo real</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              <span>Clase Online</span>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary service-card__cta" data-service-modal="operativa">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <!-- CARD 5 — Plantillas automáticas para operar -->
+      <article class="service-card card reveal" role="listitem">
+        <div class="service-card__media">
+          <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/5.png" alt="Plantillas automáticas FX-BSC" loading="lazy" />
+          <div class="service-card__media-overlay" aria-hidden="true"></div>
+          <div class="service-card__avatar" aria-hidden="true">
+            <span class="service-card__avatar-initial">M</span>
+          </div>
+        </div>
+
+        <div class="service-card__body">
+          <div class="service-card__meta">
+            <div class="service-card__rating" role="img" aria-label="5 de 5 estrellas">
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" class="star star--filled" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="service-card__rating-value">5.0</span>
+          </div>
+
+          <h3 class="service-card__title">Plantillas automáticas para operar</h3>
+          <p class="service-card__trader">Trader: <span class="text-gold">Miyerlay</span></p>
+          <p class="service-card__desc">Ahorra tiempo y reduce errores con plantillas listas para usar en tus análisis y entradas al mercado.</p>
+
+          <ul class="service-card__features">
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span>Tiempo inmediato</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" class="feat-icon" aria-hidden="true"><rect x="3" y="5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.6"/></svg>
+              <span>Clase Online</span>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary service-card__cta" data-service-modal="plantillas">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 3 — BOT DE TRADING (FEATURED)
+     ============================================ -->
+<section class="bot-section" id="bot">
+  <div class="bg-glow bg-glow-gold bot-section__glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-cyan bot-section__glow-2" aria-hidden="true"></div>
+
+  <div class="container">
+    <article class="bot-card reveal">
+      <span class="bot-card__badge badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        FEATURED · EXCLUSIVO
+      </span>
+
+      <div class="bot-card__inner">
+        <div class="bot-card__media">
+          <div class="bot-card__media-frame">
+            <img src="images/astronaut-bot.png" alt="Bot de trading Miyerlay" loading="lazy" />
+            <div class="bot-card__media-shine" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <div class="bot-card__body">
+          <span class="eyebrow">Automatización Premium</span>
+          <h2 class="bot-card__title display">BOT DE TRADING</h2>
+          <p class="bot-card__subtitle">PARA <span class="text-gold">ÍNDICES SINTÉTICOS</span>, INCLUYENDO TODOS LOS MERCADOS</p>
+
+          <blockquote class="bot-card__quote">
+            <svg viewBox="0 0 24 24" class="bot-card__quote-icon" aria-hidden="true"><path d="M9 7H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a2 2 0 0 1-2 2H4v2h1a4 4 0 0 0 4-4V7zm12 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a2 2 0 0 1-2 2h-1v2h1a4 4 0 0 0 4-4V7z" fill="currentColor"/></svg>
+            <p>SI NO SABES O NO TIENES TIEMPO PARA HACER TRADING, <span class="text-gold">MI BOT LO HACE POR TI</span></p>
+          </blockquote>
+
+          <div class="bot-card__actions">
+            <a href="https://wa.link/zt87uj" class="btn btn-primary" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" class="btn-icon btn-icon--left" aria-hidden="true" style="width:18px;height:18px"><path d="M17.6 6.32A8.78 8.78 0 0 0 12 4a8.84 8.84 0 0 0-7.5 13.4L4 21l3.74-.98A8.85 8.85 0 0 0 12 21.6h.01c4.85 0 8.79-3.94 8.79-8.79a8.74 8.74 0 0 0-3.2-6.5z" fill="currentColor"/></svg>
+              Ingresar aquí
+              <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="bot-card__hint text-mute">Acceso directo por WhatsApp</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================================
+     SECTION 4 — TE PAGAMOS POR HACER TRADING
+     ============================================ -->
+<section class="te-pagamos-section" id="te-pagamos">
+  <div class="te-pagamos__bg" aria-hidden="true">
+    <div class="te-pagamos__grid"></div>
+    <div class="te-pagamos__glow te-pagamos__glow--green"></div>
+    <div class="te-pagamos__glow te-pagamos__glow--gold"></div>
+  </div>
+
+  <div class="container">
+    <article class="te-pagamos reveal">
+      <div class="te-pagamos__media">
+        <div class="te-pagamos__media-ring" aria-hidden="true"></div>
+        <img src="https://www.fx-bsc.com/wp-content/uploads/2025/08/miyerlay1.png" alt="Miyerlay — Te pagamos por hacer trading" loading="lazy" />
+      </div>
+
+      <div class="te-pagamos__body">
+        <span class="eyebrow eyebrow--bullish">Programa Exclusivo</span>
+        <h2 class="te-pagamos__title display">
+          <span class="te-pagamos__highlight">TE PAGAMOS</span>
+          POR HACER TRADING
+        </h2>
+        <p class="te-pagamos__subtitle">Capitalízate Con Nosotros</p>
+
+        <ul class="te-pagamos__perks">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Capital real para operar
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Reparto de beneficios
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Acompañamiento profesional
+          </li>
+        </ul>
+
+        <div class="te-pagamos__actions">
+          <a href="https://tepagamosporhacertrading.funnels.mastertools.com/" class="btn btn-primary te-pagamos__cta" target="_blank" rel="noopener">
+            INGRESA
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================================
+     SERVICE MODALS (open in-page)
+     ============================================ -->
+
+<!-- MODAL: Cursos de trading -->
+<div class="service-modal" id="modal-cursos" role="dialog" aria-modal="true" aria-labelledby="modal-cursos-title" hidden>
+  <div class="service-modal__backdrop" data-service-modal-close></div>
+  <div class="service-modal__panel">
+    <button class="service-modal__close" data-service-modal-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="service-modal__header">
+      <span class="eyebrow">FX-BSC · Formación</span>
+      <h2 class="service-modal__title" id="modal-cursos-title">Plan <span class="text-gold">GOLD</span></h2>
+      <p class="service-modal__plan-subtitle">Curso de Forex, Criptomonedas e Índices Sintéticos</p>
+      <p class="service-modal__meta">Trader: <span class="text-gold">Miyerlay</span> &nbsp;·&nbsp; Clases en vivo &nbsp;·&nbsp; 4 semanas</p>
+    </div>
+    <div class="service-modal__body">
+      <p class="service-modal__desc">Domina los mercados financieros con un programa intensivo y práctico para que en solo 4 semanas adquieras estrategias probadas en Forex y criptomonedas, acompañado en todo momento por tu tutor en cada paso.</p>
+      <div class="service-modal__price-block">
+        <span class="service-modal__price-main">$1,199 <small style="font-size:0.45em;opacity:0.8">USD</small></span>
+        <span class="service-modal__price-badge">4 semanas · Acceso inmediato</span>
+      </div>
+      <ul class="service-modal__checklist">
+        <li>Dura 4 semanas</li>
+        <li>Clases en vivo</li>
+        <li>3 estrategias para Forex</li>
+        <li>3 estrategias para criptomonedas</li>
+        <li>Incluye una estrategia de índices sintéticos</li>
+        <li>Incluye cuenta de fondeo de $10,000 USD</li>
+      </ul>
+    </div>
+    <div class="service-modal__footer">
+      <a href="https://www.fx-bsc.com/?page_id=1924" class="btn btn-primary service-modal__enroll" target="_blank" rel="noopener">
+        INSCRÍBETE AHORA
+        <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <p class="service-modal__hint">Plazas limitadas — acceso inmediato tras registro</p>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Trading Personalizado -->
+<div class="service-modal" id="modal-personalizado" role="dialog" aria-modal="true" aria-labelledby="modal-personalizado-title" hidden>
+  <div class="service-modal__backdrop" data-service-modal-close></div>
+  <div class="service-modal__panel">
+    <button class="service-modal__close" data-service-modal-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="service-modal__header">
+      <span class="eyebrow">FX-BSC · Mentoría</span>
+      <h2 class="service-modal__title" id="modal-personalizado-title">Trader Rentable en <span class="text-gold">40 Días</span></h2>
+      <p class="service-modal__plan-subtitle">Trading Personalizado · Plan a medida</p>
+      <p class="service-modal__meta">Trader: <span class="text-gold">Miyerlay</span> &nbsp;·&nbsp; Sesiones en vivo &nbsp;·&nbsp; 40 días</p>
+    </div>
+    <div class="service-modal__body">
+      <p class="service-modal__desc">Este entrenamiento está diseñado para personas que ya hacen trading pero no logran ser rentables. El entrenamiento inicia con un diagnóstico previo, el cual permitirá establecer qué tipo de trader es y cuáles son los puntos a tratar según el resultado.</p>
+      <ul class="service-modal__checklist">
+        <li>Sesiones grupales de Operativa en Vivo</li>
+        <li>Tareas de ejecución, evaluación y análisis de avances</li>
+        <li>Entrega de un plan de Trading Personalizado</li>
+        <li>Sesiones de Psicotrading y conexión con el dinero</li>
+      </ul>
+    </div>
+    <div class="service-modal__footer">
+      <a href="https://wa.link/zt87uj" class="btn btn-primary service-modal__enroll" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="btn-icon btn-icon--left" aria-hidden="true" style="width:17px;height:17px"><path d="M17.6 6.32A8.78 8.78 0 0 0 12 4a8.84 8.84 0 0 0-7.5 13.4L4 21l3.74-.98A8.85 8.85 0 0 0 12 21.6h.01c4.85 0 8.79-3.94 8.79-8.79a8.74 8.74 0 0 0-3.2-6.5z" fill="currentColor"/></svg>
+        SOLICITA INFORMACIÓN
+        <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <p class="service-modal__hint">¿Estás listo? Únete a nuestra comunidad</p>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Operativa en vivo -->
+<div class="service-modal" id="modal-operativa" role="dialog" aria-modal="true" aria-labelledby="modal-operativa-title" hidden>
+  <div class="service-modal__backdrop" data-service-modal-close></div>
+  <div class="service-modal__panel">
+    <button class="service-modal__close" data-service-modal-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="service-modal__header">
+      <span class="eyebrow">FX-BSC · Live</span>
+      <h2 class="service-modal__title" id="modal-operativa-title">Sesión Especial de <span class="text-gold">Índices Sintéticos</span></h2>
+      <p class="service-modal__plan-subtitle">Operativa en Vivo · Tiempo real</p>
+      <p class="service-modal__meta">Trader: <span class="text-gold">Miyerlay</span> &nbsp;·&nbsp;
+        <span class="badge badge--live"><span class="badge-dot"></span>LIVE</span>
+      </p>
+    </div>
+    <div class="service-modal__body">
+      <p class="service-modal__desc">Descubre estrategias prácticas para operar con confianza en índices sintéticos. Aprende a identificar oportunidades, gestionar riesgos y optimizar tus resultados en una sesión diseñada para traders de todos los niveles.</p>
+      <ul class="service-modal__checklist">
+        <li>Estrategias prácticas listas para aplicar</li>
+        <li>Técnicas exclusivas para índices sintéticos</li>
+        <li>Aprende a operar con menor riesgo y mayor confianza</li>
+      </ul>
+      <div class="service-modal__programs">
+        <div class="service-modal__program">
+          <div class="service-modal__program-header">
+            <span class="service-modal__program-tag">Operativa 3X</span>
+            <strong>Triplica tu Cuenta con Guía Experta</strong>
+          </div>
+          <p>Sesiones en vivo durante 3 meses para aplicar estrategias comprobadas que impulsarán tu crecimiento en Forex.</p>
+          <ul class="service-modal__checklist service-modal__checklist--sm">
+            <li>3 meses de Operativa</li>
+            <li>Estrategia especial</li>
+            <li>Entrenamiento previo</li>
+            <li>Auditoría de cuenta</li>
+            <li>Premio cuenta $100K</li>
+          </ul>
+        </div>
+        <div class="service-modal__program">
+          <div class="service-modal__program-header">
+            <span class="service-modal__program-tag service-modal__program-tag--express">Express</span>
+            <strong>Trading en Tiempo Real</strong>
+          </div>
+          <p>Conoce cómo trabajan los traders profesionales en una jornada express. Observa, aprende y replica técnicas efectivas que podrás aplicar de inmediato.</p>
+        </div>
+      </div>
+    </div>
+    <div class="service-modal__footer">
+      <a href="https://wa.link/zt87uj" class="btn btn-primary service-modal__enroll" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="btn-icon btn-icon--left" aria-hidden="true" style="width:17px;height:17px"><path d="M17.6 6.32A8.78 8.78 0 0 0 12 4a8.84 8.84 0 0 0-7.5 13.4L4 21l3.74-.98A8.85 8.85 0 0 0 12 21.6h.01c4.85 0 8.79-3.94 8.79-8.79a8.74 8.74 0 0 0-3.2-6.5z" fill="currentColor"/></svg>
+        SOLICITA INFORMACIÓN
+        <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <p class="service-modal__hint">Próximas sesiones disponibles — no te quedes fuera</p>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: Plantillas automáticas -->
+<div class="service-modal" id="modal-plantillas" role="dialog" aria-modal="true" aria-labelledby="modal-plantillas-title" hidden>
+  <div class="service-modal__backdrop" data-service-modal-close></div>
+  <div class="service-modal__panel">
+    <button class="service-modal__close" data-service-modal-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="service-modal__header">
+      <span class="eyebrow">FX-BSC · Herramientas</span>
+      <h2 class="service-modal__title" id="modal-plantillas-title">Plantillas <span class="text-gold">Automáticas MIYE</span></h2>
+      <p class="service-modal__plan-subtitle">4 Plantillas disponibles · No son bots · Alta efectividad</p>
+      <p class="service-modal__meta">Trader: <span class="text-gold">Miyerlay</span> &nbsp;·&nbsp; Acceso inmediato &nbsp;·&nbsp; Soporte personal</p>
+    </div>
+    <div class="service-modal__body">
+      <div class="service-modal__plans-grid">
+
+        <!-- Plan 1 -->
+        <div class="service-modal__plan-card">
+          <div class="service-modal__plan-top">
+            <span class="service-modal__plan-name">Full Markets Premium MIYE</span>
+            <span class="service-modal__plan-price">$687 <small>USD</small></span>
+          </div>
+          <p class="service-modal__plan-desc">Accede a una herramienta diseñada para traders que buscan ir más allá: proyecciones precisas, soporte personalizado y un mes de operativas en vivo para mejorar tu rendimiento en los mercados.</p>
+          <ul class="service-modal__checklist service-modal__checklist--sm">
+            <li>Para subir cuentas reales y de fondeo con múltiples opciones</li>
+            <li>Te entrega Stop Loss fijo y Take Profit</li>
+            <li>Incluye la entrega adicional de todas nuestras plantillas automáticas</li>
+            <li>1 mes de acceso al grupo de operativas en vivo</li>
+            <li>Grupo de soporte personal</li>
+            <li>No es un bot</li>
+            <li>Efectividad mayor al <strong>90%</strong></li>
+          </ul>
+        </div>
+
+        <!-- Plan 2 -->
+        <div class="service-modal__plan-card">
+          <div class="service-modal__plan-top">
+            <span class="service-modal__plan-name">Forex Multifunción MIYE</span>
+            <span class="service-modal__plan-price">$157 <small>USD</small></span>
+          </div>
+          <p class="service-modal__plan-desc">Con la Plantilla Automática Forex Multifunción MIYE tendrás en tus manos una herramienta práctica, confiable y con más de 80% de efectividad. Ideal para traders de cualquier nivel que buscan resultados reales.</p>
+          <ul class="service-modal__checklist service-modal__checklist--sm">
+            <li>Para subir cuentas reales y de fondeo de forma fácil y sencilla</li>
+            <li>Útil para traders de nivel básico, intermedio y avanzado</li>
+            <li>Con múltiples funciones, para usarla como desees</li>
+            <li>Te entrega SL y hasta 10 TP y proyección del precio según su escenario alcista o bajista</li>
+            <li>No es un bot</li>
+            <li>Efectividad mayor al <strong>80%</strong></li>
+          </ul>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="service-modal__plan-card">
+          <div class="service-modal__plan-top">
+            <span class="service-modal__plan-name">Índices Sintéticos MIYE</span>
+            <span class="service-modal__plan-price">$167 <small>USD</small></span>
+          </div>
+          <p class="service-modal__plan-desc">Descubre estrategias diseñadas para proteger tu capital mientras aprendes a generar rentabilidad en los mercados financieros. Con nuestro enfoque paso a paso, podrás invertir con mayor seguridad, minimizar riesgos y avanzar con confianza en tu camino como trader.</p>
+          <ul class="service-modal__checklist service-modal__checklist--sm">
+            <li>Aumentar tus ganancias rápidamente con bajo riesgo</li>
+            <li>No es un bot</li>
+            <li>Operativa en vivo 1 vez por semana</li>
+            <li>Grupo de soporte personal</li>
+            <li>Efectividad por encima del <strong>80%</strong></li>
+          </ul>
+        </div>
+
+        <!-- Plan 4 -->
+        <div class="service-modal__plan-card service-modal__plan-card--gold">
+          <div class="service-modal__plan-top">
+            <span class="service-modal__plan-name">Full Markets Golden MIYE ⭐</span>
+            <span class="service-modal__plan-price">$847 <small>USD</small></span>
+          </div>
+          <p class="service-modal__plan-desc">Accede a una herramienta versátil que te permite crecer en el trading con diferentes alternativas para operar. Diseñada para impulsar tanto cuentas reales como de fondeo, te brinda la flexibilidad y confianza necesarias para alcanzar tus objetivos financieros.</p>
+          <ul class="service-modal__checklist service-modal__checklist--sm">
+            <li>Para subir cuentas reales y de fondeo con múltiples opciones</li>
+            <li>Te entrega Stop Loss fijo y Take Profit</li>
+            <li>Incluye la entrega adicional de todas nuestras plantillas automáticas</li>
+            <li>3 meses de acceso al grupo de operativas en vivo</li>
+            <li>Grupo de soporte personal</li>
+            <li>Te obsequiamos una cuenta de fondeo de <strong>$10K</strong></li>
+            <li>No es un bot</li>
+            <li>Efectividad mayor al <strong>90%</strong></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="service-modal__footer">
+      <a href="https://wa.link/zt87uj" class="btn btn-primary service-modal__enroll" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="btn-icon btn-icon--left" aria-hidden="true" style="width:17px;height:17px"><path d="M17.6 6.32A8.78 8.78 0 0 0 12 4a8.84 8.84 0 0 0-7.5 13.4L4 21l3.74-.98A8.85 8.85 0 0 0 12 21.6h.01c4.85 0 8.79-3.94 8.79-8.79a8.74 8.74 0 0 0-3.2-6.5z" fill="currentColor"/></svg>
+        SOLICITA INFORMACIÓN
+        <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <p class="service-modal__hint">TEL: +573126538272 · Telegram @FXBSC</p>
+    </div>
+  </div>
+</div>
+<!-- ============================================
+     SECTION 1 — VENTAJAS DE APRENDER EN FX-BSC
+     ============================================ -->
+<section class="sp-ventajas" id="ventajas" aria-labelledby="ventajas-title">
+  <span class="bg-glow bg-glow-gold sp-glow sp-glow--tl" aria-hidden="true"></span>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="sp-ventajas__grid">
+
+      <!-- LEFT — Miyerlay logo / visual -->
+      <aside class="sp-ventajas__visual" aria-hidden="true">
+        <div class="sp-ventajas__logo-wrap">
+          <div class="sp-ventajas__halo"></div>
+          <div class="sp-ventajas__ring sp-ventajas__ring--1"></div>
+          <div class="sp-ventajas__ring sp-ventajas__ring--2"></div>
+          <img
+            src="https://www.fx-bsc.com/wp-content/uploads/2023/05/Logo-Miyerlay.png"
+            alt="Miyerlay logo"
+            loading="lazy"
+            class="sp-ventajas__logo"
+          />
+          <span class="sp-ventajas__chip badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Mentor en vivo
+          </span>
+        </div>
+      </aside>
+
+      <!-- RIGHT — copy + 2x2 perks -->
+      <div class="sp-ventajas__content">
+        <header class="sp-ventajas__header">
+          <span class="eyebrow">Únete a nuestra comunidad.</span>
+          <h2 id="ventajas-title" class="display">
+            Ventajas de aprender en <span class="text-gold">FX-BSC</span>
+          </h2>
+          <p class="text-soft">
+            Nuestra academia está diseñada para adaptarse a ti: horarios flexibles, clases personalizadas, sesiones en vivo y una comunidad activa que te acompaña en cada paso.
+          </p>
+        </header>
+
+        <ul class="sp-perks" role="list">
+          <li class="sp-perk">
+            <span class="sp-perk__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="4"/>
+                <path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>
+              </svg>
+            </span>
+            <div class="sp-perk__body">
+              <h3 class="sp-perk__title">Clases Personalizadas</h3>
+              <p class="sp-perk__text text-soft">Cada trader tiene un estilo distinto. Nuestras mentorías se adaptan a tu nivel y objetivos, con la guía directa de Miyerlay.</p>
+            </div>
+          </li>
+
+          <li class="sp-perk">
+            <span class="sp-perk__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3z"/>
+                <path d="M21 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/>
+              </svg>
+            </span>
+            <div class="sp-perk__body">
+              <h3 class="sp-perk__title">Operativa en Vivo</h3>
+              <p class="sp-perk__text text-soft">Nada de teoría vacía. Participa en sesiones en tiempo real y descubre cómo se aplican las estrategias en los mercados financieros.</p>
+            </div>
+          </li>
+
+          <li class="sp-perk">
+            <span class="sp-perk__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 7v5l3 2"/>
+              </svg>
+            </span>
+            <div class="sp-perk__body">
+              <h3 class="sp-perk__title">Horarios Flexibles</h3>
+              <p class="sp-perk__text text-soft">Aprende a tu ritmo. En FX-BSC puedes organizar tus clases de acuerdo a tu tiempo, sin descuidar tus estudios ni tu vida personal.</p>
+            </div>
+          </li>
+
+          <li class="sp-perk">
+            <span class="sp-perk__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21V9l5-4 5 4v3h8v9z"/>
+                <path d="M9 21v-5h3v5"/>
+                <path d="M16 14h2M16 18h2"/>
+              </svg>
+            </span>
+            <div class="sp-perk__body">
+              <h3 class="sp-perk__title">Comunidad de Traders</h3>
+              <p class="sp-perk__text text-soft">Aprende acompañado. Únete a una comunidad de estudiantes y traders que comparten experiencias.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 2 — STATS / ANIMATED COUNTERS
+     ============================================ -->
+<section class="sp-stats" id="stats" aria-labelledby="stats-title">
+  <h2 id="stats-title" class="visually-hidden">Nuestras cifras</h2>
+  <span class="bg-glow bg-glow-gold sp-glow sp-glow--center" aria-hidden="true"></span>
+
+  <div class="container">
+    <ul class="sp-stats__grid" role="list">
+
+      <li class="sp-stat">
+        <span class="sp-stat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="8" r="3.5"/>
+            <path d="M2 20c1-3.5 3.5-5.5 7-5.5s6 2 7 5.5"/>
+            <circle cx="17" cy="9" r="2.5"/>
+            <path d="M16 20c.5-2.5 2-4 5-4"/>
+          </svg>
+        </span>
+        <div class="sp-stat__value">
+          <span class="sp-stat__plus" aria-hidden="true">+</span>
+          <span class="counter text-gold" data-target="50" aria-label="50">50</span>
+        </div>
+        <span class="sp-stat__divider" aria-hidden="true"></span>
+        <p class="sp-stat__label">Alumnos Online</p>
+      </li>
+
+      <li class="sp-stat">
+        <span class="sp-stat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/>
+          </svg>
+        </span>
+        <div class="sp-stat__value">
+          <span class="sp-stat__plus" aria-hidden="true">+</span>
+          <span class="counter text-gold" data-target="100" aria-label="100">100</span>
+        </div>
+        <span class="sp-stat__divider" aria-hidden="true"></span>
+        <p class="sp-stat__label">Proyectos</p>
+      </li>
+
+      <li class="sp-stat">
+        <span class="sp-stat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h12a4 4 0 0 1 4 4v8H8a4 4 0 0 1-4-4z"/>
+            <path d="M8 10h8M8 14h5"/>
+          </svg>
+        </span>
+        <div class="sp-stat__value">
+          <span class="sp-stat__plus" aria-hidden="true">+</span>
+          <span class="counter text-gold" data-target="50" aria-label="50">50</span>
+        </div>
+        <span class="sp-stat__divider" aria-hidden="true"></span>
+        <p class="sp-stat__label">Cursos completados</p>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 3 — FAQ
+     ============================================ -->
+<section class="sp-faq" id="faq" aria-labelledby="faq-title" role="region">
+  <span class="bg-glow bg-glow-gold sp-glow sp-glow--br" aria-hidden="true"></span>
+
+  <div class="container sp-faq__container">
+    <header class="section-header sp-faq__header">
+      <span class="eyebrow">Preguntas frecuentes (FAQ)</span>
+      <h2 id="faq-title" class="display">
+        Todo lo que necesitas <span class="text-gold">saber</span>
+      </h2>
+      <p class="text-soft">
+        Nuestro objetivo es que tu experiencia en FX-BSC sea lo más clara posible. Explora las preguntas frecuentes y conoce cómo te acompañamos en cada paso de tu aprendizaje.
+      </p>
+    </header>
+
+    <div class="sp-faq__list">
+
+      <details class="sp-faq__item" name="fxbsc-faq">
+        <summary class="sp-faq__summary" aria-expanded="false">
+          <span class="sp-faq__num">01</span>
+          <span class="sp-faq__q">¿Necesito experiencia previa para unirme a la academia?</span>
+          <span class="sp-faq__toggle" aria-hidden="true">
+            <span class="sp-faq__toggle-bar"></span>
+            <span class="sp-faq__toggle-bar"></span>
+          </span>
+        </summary>
+        <div class="sp-faq__panel">
+          <p class="text-soft">No. Nuestros programas están diseñados tanto para principiantes como para traders con experiencia. Empezamos desde lo básico y avanzamos progresivamente, adaptando las clases a tu nivel.</p>
+        </div>
+      </details>
+
+      <details class="sp-faq__item" name="fxbsc-faq">
+        <summary class="sp-faq__summary" aria-expanded="false">
+          <span class="sp-faq__num">02</span>
+          <span class="sp-faq__q">¿Las clases son en vivo o grabadas?</span>
+          <span class="sp-faq__toggle" aria-hidden="true">
+            <span class="sp-faq__toggle-bar"></span>
+            <span class="sp-faq__toggle-bar"></span>
+          </span>
+        </summary>
+        <div class="sp-faq__panel">
+          <p class="text-soft">Contamos con clases en vivo para que puedas interactuar directamente con el mentor, además de acceso a material grabado que podrás revisar cuando lo necesites. Así, nunca te perderás de una lección.</p>
+        </div>
+      </details>
+
+      <details class="sp-faq__item" name="fxbsc-faq">
+        <summary class="sp-faq__summary" aria-expanded="false">
+          <span class="sp-faq__num">03</span>
+          <span class="sp-faq__q">¿Puedo practicar con cuentas demo antes de invertir dinero real?</span>
+          <span class="sp-faq__toggle" aria-hidden="true">
+            <span class="sp-faq__toggle-bar"></span>
+            <span class="sp-faq__toggle-bar"></span>
+          </span>
+        </summary>
+        <div class="sp-faq__panel">
+          <p class="text-soft">Sí. En la academia fomentamos la práctica segura, por eso tendrás acceso a cuentas demo y programas de fondeo donde podrás aplicar tus estrategias sin arriesgar tu capital inicial.</p>
+        </div>
+      </details>
+
+      <details class="sp-faq__item" name="fxbsc-faq">
+        <summary class="sp-faq__summary" aria-expanded="false">
+          <span class="sp-faq__num">04</span>
+          <span class="sp-faq__q">¿En qué horario son las operativas en vivo?</span>
+          <span class="sp-faq__toggle" aria-hidden="true">
+            <span class="sp-faq__toggle-bar"></span>
+            <span class="sp-faq__toggle-bar"></span>
+          </span>
+        </summary>
+        <div class="sp-faq__panel">
+          <p class="text-soft">De martes a viernes en la sesión de Nueva York y algunas veces en la sesión Asiática.</p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 4 — TESTIMONIALS
+     ============================================ -->
+<section class="sp-testimonials" id="testimonios" aria-labelledby="testimonials-title" role="region">
+  <span class="bg-glow bg-glow-gold sp-glow sp-glow--tl" aria-hidden="true"></span>
+
+  <div class="container">
+    <header class="section-header center sp-testimonials__header">
+      <span class="eyebrow">testimonios</span>
+      <h2 id="testimonials-title" class="display">
+        Lo que dicen <span class="text-gold">nuestros estudiantes</span>
+      </h2>
+      <p class="text-soft">
+        Decenas de alumnos ya transformaron su forma de ver los mercados gracias a FX-BSC. Ellos son la mejor prueba de nuestro compromiso y resultados.
+      </p>
+    </header>
+
+    <div class="sp-testimonials__cols-wrap" aria-label="Testimonios de estudiantes">
+
+      <!-- Column 1 -->
+      <div class="sp-testimonials__col sp-testimonials__col--1">
+        <div class="sp-testimonials__col-inner">
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Gracias a MIYERLAY entendí cómo funciona el mercado paso a paso. Sus clases son claras y prácticas, ahora opero con mucha más seguridad.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">P</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Piero Ruíz</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Nunca pensé que podía aprender trading desde cero. Con FX-BSC logré tener resultados consistentes en poco tiempo y sin experiencia previa.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">E</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Eduardo Ríos</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Las plantillas automáticas son increíbles. Me ahorran horas de análisis y mi efectividad mejoró notablemente desde el primer mes de uso.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">V</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Valentina Díaz</strong><span class="sp-testimonial__role text-mute">Trader · Plantillas MIYE</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>En 3 meses ya tenía mi primera cuenta de fondeo aprobada. FX-BSC hace exactamente lo que promete, sin excusas y con resultados reales.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">C</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Carlos Méndez</strong><span class="sp-testimonial__role text-mute">Trader · Plan Gold</span></div>
+            </footer>
+          </article>
+
+          <!-- Duplicate for seamless loop -->
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Gracias a MIYERLAY entendí cómo funciona el mercado paso a paso. Sus clases son claras y prácticas, ahora opero con mucha más seguridad.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">P</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Piero Ruíz</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Nunca pensé que podía aprender trading desde cero. Con FX-BSC logré tener resultados consistentes en poco tiempo y sin experiencia previa.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">E</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Eduardo Ríos</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Las plantillas automáticas son increíbles. Me ahorran horas de análisis y mi efectividad mejoró notablemente desde el primer mes de uso.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">V</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Valentina Díaz</strong><span class="sp-testimonial__role text-mute">Trader · Plantillas MIYE</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>En 3 meses ya tenía mi primera cuenta de fondeo aprobada. FX-BSC hace exactamente lo que promete, sin excusas y con resultados reales.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">C</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Carlos Méndez</strong><span class="sp-testimonial__role text-mute">Trader · Plan Gold</span></div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Column 2 (hidden on mobile) -->
+      <div class="sp-testimonials__col sp-testimonials__col--2">
+        <div class="sp-testimonials__col-inner">
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>La forma en que MIYERLAY explica las estrategias me ayudó a dejar de cometer errores comunes y mejorar mi rentabilidad real en el mercado.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">F</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Fabricio Sanchez</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>El grupo de operativas en vivo es lo mejor. Ver a Miyerlay operar en tiempo real me enseñó más que meses de estudio por mi propia cuenta.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">A</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Adriana López</strong><span class="sp-testimonial__role text-mute">Trader · Operativas Live</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Pasé de perder consistentemente a tener semanas verdes gracias a la metodología FX-BSC. La disciplina y el enfoque lo cambiaron todo.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">M</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Miguel Torres</strong><span class="sp-testimonial__role text-mute">Trader · Índices Sintéticos</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Como madre ocupada dudé mucho, pero FX-BSC me demostró que sí es posible aprender a mi ritmo. El soporte del grupo siempre está disponible.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">S</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Sofía Herrera</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <!-- Duplicate for seamless loop -->
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>La forma en que MIYERLAY explica las estrategias me ayudó a dejar de cometer errores comunes y mejorar mi rentabilidad real en el mercado.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">F</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Fabricio Sanchez</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>El grupo de operativas en vivo es lo mejor. Ver a Miyerlay operar en tiempo real me enseñó más que meses de estudio por mi propia cuenta.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">A</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Adriana López</strong><span class="sp-testimonial__role text-mute">Trader · Operativas Live</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Pasé de perder consistentemente a tener semanas verdes gracias a la metodología FX-BSC. La disciplina y el enfoque lo cambiaron todo.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">M</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Miguel Torres</strong><span class="sp-testimonial__role text-mute">Trader · Índices Sintéticos</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Como madre ocupada dudé mucho, pero FX-BSC me demostró que sí es posible aprender a mi ritmo. El soporte del grupo siempre está disponible.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">S</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Sofía Herrera</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Column 3 (hidden on tablet and mobile) -->
+      <div class="sp-testimonials__col sp-testimonials__col--3">
+        <div class="sp-testimonials__col-inner">
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Subí una cuenta de fondeo de $50K usando la plantilla Full Markets. La efectividad es real, no son promesas vacías ni cuentas demostración.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">C</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Camilo Vargas</strong><span class="sp-testimonial__role text-mute">Trader · Cuenta Fondeo $50K</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Llevo 6 meses con FX-BSC y es la mejor inversión que he hecho. Los índices sintéticos me generan ingresos semanales realmente consistentes.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">D</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Diana Ramírez</strong><span class="sp-testimonial__role text-mute">Trader · Índices Sintéticos</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>El curso me dio una visión completa del mercado. Hoy opero con plena confianza porque entiendo realmente lo que hago en cada operación.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">S</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Sebastián Castro</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <article class="card sp-testimonial">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars" aria-label="5 de 5 estrellas"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Miyerlay simplifica lo complejo de manera increíble. Aprendí análisis técnico en pocas semanas que otros tardan años en dominar por su cuenta.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">L</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Lorena Muñoz</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+          <!-- Duplicate for seamless loop -->
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Subí una cuenta de fondeo de $50K usando la plantilla Full Markets. La efectividad es real, no son promesas vacías ni cuentas demostración.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">C</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Camilo Vargas</strong><span class="sp-testimonial__role text-mute">Trader · Cuenta Fondeo $50K</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Llevo 6 meses con FX-BSC y es la mejor inversión que he hecho. Los índices sintéticos me generan ingresos semanales realmente consistentes.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">D</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Diana Ramírez</strong><span class="sp-testimonial__role text-mute">Trader · Índices Sintéticos</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>El curso me dio una visión completa del mercado. Hoy opero con plena confianza porque entiendo realmente lo que hago en cada operación.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">S</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Sebastián Castro</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+          <article class="card sp-testimonial" aria-hidden="true">
+            <svg class="sp-testimonial__quote" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 40c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H14V40zm26 0c0-12 8-20 18-22v6c-6 2-10 8-10 14h10v18H40V40z" fill="currentColor"/></svg>
+            <div class="sp-testimonial__stars"><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span><span aria-hidden="true">&#9733;</span></div>
+            <blockquote class="sp-testimonial__text"><p>Miyerlay simplifica lo complejo de manera increíble. Aprendí análisis técnico en pocas semanas que otros tardan años en dominar por su cuenta.</p></blockquote>
+            <footer class="sp-testimonial__person">
+              <span class="sp-testimonial__avatar" aria-hidden="true">L</span>
+              <div class="sp-testimonial__meta"><strong class="sp-testimonial__name">Lorena Muñoz</strong><span class="sp-testimonial__role text-mute">Estudiante FX-BSC</span></div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ============================================
+     TELEGRAM CTA — Community split section
+     ============================================ -->
+<section class="telegram-cta" id="comunidad" aria-labelledby="telegram-heading">
+  <div class="bg-glow bg-glow-gold telegram-cta__glow-a" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-cyan telegram-cta__glow-b" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="telegram-cta__grid">
+
+      <!-- LEFT: Copy + CTA -->
+      <div class="telegram-cta__copy reveal">
+        <span class="eyebrow">Únete a la comunidad exclusiva</span>
+        <h2 id="telegram-heading" class="display telegram-cta__title">
+          Conecta con <span class="text-gold">Miyerlay</span> y traders como tú
+        </h2>
+        <p class="telegram-cta__lead">
+          Sé parte de nuestro canal privado en Telegram, donde Miyerlay comparte
+          consejos prácticos, análisis de mercado en tiempo real y la motivación
+          que necesitas para avanzar en tu camino como trader. Aquí no estarás
+          solo, formarás parte de una comunidad activa que te impulsa a crecer
+          cada día.
+        </p>
+
+        <ul class="telegram-cta__list" role="list">
+          <li class="telegram-cta__item">
+            <span class="telegram-cta__check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <h3 class="telegram-cta__item-title">Análisis diarios</h3>
+              <p class="telegram-cta__item-text">Lectura de mercado y oportunidades cada sesión.</p>
+            </div>
+          </li>
+          <li class="telegram-cta__item">
+            <span class="telegram-cta__check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <h3 class="telegram-cta__item-title">Contenido exclusivo</h3>
+              <p class="telegram-cta__item-text">Material privado que no encontrarás en redes públicas.</p>
+            </div>
+          </li>
+          <li class="telegram-cta__item">
+            <span class="telegram-cta__check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <h3 class="telegram-cta__item-title">Soporte y networking</h3>
+              <p class="telegram-cta__item-text">Conecta con traders activos y resuelve dudas al instante.</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="telegram-cta__actions">
+          <a class="btn btn-primary telegram-cta__btn"
+             href="https://t.me/Fxbasic_entradastrading"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Únete al canal de Telegram de FX-BSC">
+            <svg class="btn-icon telegram-cta__btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+            </svg>
+            ÚNETE A TELEGRAM
+          </a>
+          <div class="telegram-cta__meta">
+            <span class="telegram-cta__meta-dot" aria-hidden="true"></span>
+            <span>+5.000 traders activos</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Image -->
+      <div class="telegram-cta__video reveal">
+        <div class="video-preview video-preview--static">
+          <img class="video-preview__img"
+               src="https://www.fx-bsc.com/wp-content/uploads/2025/08/Miyerlay3.png"
+               alt="Miyerlay, mentor de FX-BSC"
+               loading="lazy"
+               decoding="async">
+          <span class="video-preview__corner video-preview__corner--tl" aria-hidden="true"></span>
+          <span class="video-preview__corner video-preview__corner--tr" aria-hidden="true"></span>
+          <span class="video-preview__corner video-preview__corner--bl" aria-hidden="true"></span>
+          <span class="video-preview__corner video-preview__corner--br" aria-hidden="true"></span>
+        </div>
+
+        <div class="video-preview__floater" aria-hidden="true">
+          <div class="video-preview__floater-dot"></div>
+          <div>
+            <div class="video-preview__floater-label">Live</div>
+            <div class="video-preview__floater-text">Sesiones semanales</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================
+     FOOTER — Premium dark
+     ============================================ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__divider" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-gold site-footer__glow" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="site-footer__grid">
+
+      <!-- Marca -->
+      <div class="site-footer__col site-footer__col--brand reveal">
+        <a href="#top" class="site-footer__logo" aria-label="FX-BSC inicio">
+          <span class="site-footer__monogram" aria-hidden="true">
+            <span>FX</span>
+            <span class="site-footer__monogram-line"></span>
+            <span>BSC</span>
+          </span>
+          <span class="site-footer__brand">
+            <span class="site-footer__brand-name">FX-BSC</span>
+            <span class="site-footer__brand-tag">Academia de Trading</span>
+          </span>
+        </a>
+        <p class="site-footer__desc">
+          Formamos traders desde cero con metodología clara y resultados reales.
+        </p>
+
+        <ul class="site-footer__socials" aria-label="Redes sociales">
+          <li>
+            <a href="https://t.me/Fxbasic_entradastrading" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/573242579229" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.5 3.5A11 11 0 003.6 17.3L2 22l4.8-1.6A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.9.95.96-2.85-.2-.3A8 8 0 1112 20zm4.6-5.6c-.25-.13-1.47-.73-1.7-.8-.22-.08-.39-.13-.55.12-.16.25-.63.79-.77.95-.14.16-.28.18-.53.06-.25-.13-1.06-.39-2.02-1.24-.75-.66-1.25-1.48-1.4-1.73-.14-.25-.01-.39.11-.51.11-.11.25-.28.38-.42.13-.14.16-.24.25-.41.08-.16.04-.31-.02-.43-.06-.13-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42-.14-.01-.31-.01-.47-.01a.9.9 0 00-.66.31c-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.55.12.17 1.74 2.65 4.21 3.71.59.26 1.05.41 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.05-.1-.22-.16-.47-.29z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@traderrentable1" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 00.5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 002.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 002.1-2.1C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/miyerlay-gomez-065933b7/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.37 4.26 5.44v6.3zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM3.56 20.45h3.56V9H3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.27V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Servicios -->
+      <div class="site-footer__col reveal">
+        <h4 class="site-footer__heading">Servicios</h4>
+        <ul class="site-footer__links">
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#personalizado">Trading Personalizado</a></li>
+          <li><a href="#fondeo">Cuentas de fondeo</a></li>
+          <li><a href="#live">Operativa en vivo</a></li>
+          <li><a href="#plantillas">Plantillas</a></li>
+          <li><a href="#bot">Bot de Trading</a></li>
+        </ul>
+      </div>
+
+      <!-- Recursos -->
+      <div class="site-footer__col reveal">
+        <h4 class="site-footer__heading">Recursos</h4>
+        <ul class="site-footer__links">
+          <li><a href="https://t.me/Fxbasic_entradastrading" target="_blank" rel="noopener noreferrer">Comunidad Telegram</a></li>
+          <li><a href="#senales">Canal de señales</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Contacto -->
+      <div class="site-footer__col reveal">
+        <h4 class="site-footer__heading">Contacto</h4>
+        <ul class="site-footer__contact">
+          <li>
+            <span class="site-footer__contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M20.5 3.5A11 11 0 003.6 17.3L2 22l4.8-1.6A11 11 0 1020.5 3.5z"/></svg>
+            </span>
+            <a href="https://wa.me/573126538272" target="_blank" rel="noopener noreferrer">+57 312 6538272</a>
+          </li>
+          <li>
+            <span class="site-footer__contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>
+            </span>
+            <a href="mailto:administración@fx-bsc.com">administración@fx-bsc.com</a>
+          </li>
+        </ul>
+        <span class="badge site-footer__badge">
+          <span class="badge-dot"></span>
+          Soporte 24/7
+        </span>
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__copy">
+        © 2026 FX-BSC Academia de Trading. Todos los derechos reservados.
+      </p>
+      <p class="site-footer__signature text-mute">
+        Diseñado con precisión
+        <span class="site-footer__sig-dot" aria-hidden="true"></span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============================================
+     FLOATING ACTIONS — WhatsApp + Scroll to top
+     ============================================ -->
+<aside class="floating-actions" aria-label="Acciones rápidas">
+  <button type="button"
+          class="floating-btn floating-btn--top"
+          data-scroll-top
+          aria-label="Volver arriba"
+          hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+      <path d="M12 19V5"/><path d="M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <a class="floating-btn floating-btn--wa"
+     href="https://wa.me/573242579229?text=Hola%20FX-BSC.%20Necesito%20más%20información%20sobre%20sus%20servicios"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Escríbenos por WhatsApp">
+    <span class="floating-btn__pulse" aria-hidden="true"></span>
+    <span class="floating-btn__pulse floating-btn__pulse--2" aria-hidden="true"></span>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26" aria-hidden="true">
+      <path d="M20.5 3.5A11 11 0 003.6 17.3L2 22l4.8-1.6A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.9.95.96-2.85-.2-.3A8 8 0 1112 20zm4.6-5.6c-.25-.13-1.47-.73-1.7-.8-.22-.08-.39-.13-.55.12-.16.25-.63.79-.77.95-.14.16-.28.18-.53.06-.25-.13-1.06-.39-2.02-1.24-.75-.66-1.25-1.48-1.4-1.73-.14-.25-.01-.39.11-.51.11-.11.25-.28.38-.42.13-.14.16-.24.25-.41.08-.16.04-.31-.02-.43-.06-.13-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42-.14-.01-.31-.01-.47-.01a.9.9 0 00-.66.31c-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.55.12.17 1.74 2.65 4.21 3.71.59.26 1.05.41 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.05-.1-.22-.16-.47-.29z"/>
+    </svg>
+    <span class="floating-btn__tooltip">Hola, ¿En qué podemos ayudarte?</span>
+  </a>
+</aside>
+
+
+<!-- ============================================
+     VIDEO MODAL
+     ============================================ -->
+<div class="video-modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="video-modal-title"
+     hidden>
+  <div class="video-modal__backdrop" data-video-close></div>
+  <div class="video-modal__shell" role="document">
+    <div class="video-modal__head">
+      <h2 id="video-modal-title" class="video-modal__title">
+        <span class="badge"><span class="badge-dot"></span>FX-BSC · Mensaje del mentor</span>
+      </h2>
+      <button type="button" class="video-modal__close" data-video-close aria-label="Cerrar vídeo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="20" height="20">
+          <path d="M6 6l12 12M18 6L6 18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="video-modal__frame">
+      <div class="video-modal__iframe-wrap" data-video-target></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================
+     SCROLL PROGRESS BAR
+     ============================================ -->
+<div class="scroll-progress" aria-hidden="true">
+  <span class="scroll-progress__bar" data-scroll-progress></span>
+</div>
+</body></html>
